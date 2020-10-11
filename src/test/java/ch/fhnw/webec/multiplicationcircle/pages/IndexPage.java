@@ -13,9 +13,6 @@ public class IndexPage {
 
     private final WebDriver driver;
 
-    @FindBy(id = "segment-count")
-    private WebElement segmentCount;
-
     @FindBy(id = "multiplier")
     private WebElement multiplier;
 

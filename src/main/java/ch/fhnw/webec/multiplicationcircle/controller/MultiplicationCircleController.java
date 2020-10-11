@@ -11,7 +11,7 @@ public class MultiplicationCircleController {
 
     private static final int RADIUS = 200;
 
-    public ModelAndView getIndex(int segmentCount, int tableBase) {
+    public ModelAndView getIndex(int segmentCount, int multiplier) {
         final Map<String, Object> model = new HashMap<>();
         // TODO: Add the missing data
 
